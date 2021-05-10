@@ -1,4 +1,4 @@
-class Api::V1::FoldersController < ApplicationController
+class V1::FoldersController < ApplicationController
   def snjnf39
     if current_gate == 3
       open_gate_4

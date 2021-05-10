@@ -1,4 +1,4 @@
-class Api::SystemsController < ApplicationController
+class SystemsController < ApplicationController
 
   def init
     render 'init.json.jb'
